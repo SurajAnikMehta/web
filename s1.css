@@ -1,0 +1,195 @@
+#navbar{
+    height: 10vh; justify-content: center; text-align: center;
+}
+#searchbox{
+    background-color: rgba(160, 157, 157, 0.87);
+    border-radius: 50px;
+    position: relative;
+    border: 0ch;
+    color: rgb(255, 255, 255);
+    left: 40px;
+}
+#searchbox::placeholder {
+    color: rgb(255, 255, 255);
+    border: 0ch;
+}
+#searchbtn{
+    background-color: rgba(160, 157, 157, 0.17);
+    border-radius: 50px;
+    border: 0ch;
+    position: relative;
+}
+#banner1pic{
+    height: 92vh;
+    background-size: cover;
+    background-position: center top;
+    background-image: linear-gradient(rgba(226, 220, 220, 0.425),rgba(160, 157, 157, 0.47)),url(../image/image\ 1st.jpg);
+}
+#bannertext{
+    padding: 20% 5% 5% 8%;
+    justify-content: center;
+    text-align: justify;
+}
+#bannertext h1{
+    font-weight: bolder;
+    color: #e2a355;
+    letter-spacing: 1.5px;
+}
+#banner-button{
+    margin-top: 35px;
+    margin-bottom: 23px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 50px; border: 0;
+    background-color: white;
+    font-size: 20px; font-weight: 700;
+    color: rgba(92, 83, 71, 0.897);
+    text-transform: uppercase;
+}
+#banner-button:hover{
+    background-color: #e6e21ae8;
+    transition: 0.5s;
+}
+#bannertext p{
+    padding-top: 5px;
+    padding-right: 40px;
+    font-size: 16px; font-weight: 400; color: rgb(3, 3, 3);
+    word-spacing: 2px;
+}
+#bannerheading{
+    font-weight: 500; font-size: 50px;
+    color: #e2a355;
+    letter-spacing: 150%;
+    margin-top: 100px;
+    text-align: center; 
+}
+#showmore{
+    margin-top: 55px;
+    padding: 10px 55px 10px 55px;
+    border-radius: 50px; border: 0;
+    background-color: #7f7770;
+    font-size: 22px; font-weight: 700;
+    color: rgb(255, 253, 250);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#showmore:hover{
+    opacity: .9;
+    transition: 0.5s;
+}
+#card-color{
+    background-color: #7f7770;    
+    color: rgb(255, 253, 250);
+}
+#offerrow{
+    margin-top: 10%;
+}
+#offertext1{
+    background-color:#7f7770 ;
+    color: white;
+    text-align: start;
+    justify-content: center;
+    padding:  10% 6% ;
+}
+#offertext1 p{
+    font-size: 18px;
+    padding: 1% 2% 1% 0;
+    text-align: justify;
+}
+#offertext2{
+    background-color:#deb37e ;
+    color: white;
+    text-align: start;
+    justify-content: center;
+    padding:10% 6%;
+}
+#offertext2 p{
+    font-size: 18px;
+    padding: 1% 2% 1% 0;
+    text-align: justify;
+}
+#offer-button{
+    margin-top: 15px;
+    padding: 5px 35px 5px 35px;
+    border-radius: 50px; border: 0;
+    background-color: #e2a355;
+    font-size: 20px; font-weight: 700; letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+#offer-button:hover{
+    background-color: #d1790e;
+    transition: 0.5s;
+}
+#massage{
+    margin-top: 100px;     margin-bottom: 100px;
+    background-color:#7f7770 ;
+    padding:  10% 3% ;
+
+}
+#massage p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+#Exloretheworld{
+    margin-bottom: 10%;
+    background-image: linear-gradient(rgba(150, 147, 147, 0.39),rgba(107, 99, 99, 0.315)),url(../image/explorer.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#Exloretheworld h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #d1790e;
+    text-shadow: 2px 2px 5px rgb(218, 212, 212);
+    padding: 40% 20%;
+}
+#titlehere{
+    padding-top: 10%; padding-bottom: 3%;
+    font-size: 40px;
+    color: white;
+}
+#titlehere p{
+    padding-left: 6%; padding-right: 6%;
+}
+#emailsus{
+    margin-top: 10%;margin-bottom: 20%;
+    border-radius: 50px;
+    position: relative;
+    border: 0ch;
+    left: 40px;
+}
+#Suscribe{
+    margin-top: 10%;margin-bottom: 20%;
+    background-color: #35322f;    
+    color:white; letter-spacing: 150%;
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: 0ch;
+    position: relative;
+}
+/* Responsive */
+@media screen and (min-width:1000px) {
+    /* Responsive bannertext */
+    #bannertext{
+        padding-top: 10%;
+    }
+    #bannerheading{
+        font-weight: 900; font-size: 100px;
+    }
+    #Exloretheworld h1{
+        font-size: 100px;
+        padding: 16% 25%;
+    }
+}
+@media screen and (min-width:767px) and (max-width:1100px) {
+    #Exloretheworld h1{
+        font-size: 100px;
+        padding: 30% 25%;
+    } 
+    #bannerheading{
+        font-weight: 800; font-size: 80px;
+    }
+}
