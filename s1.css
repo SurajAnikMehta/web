@@ -23,7 +23,7 @@
     height: 92vh;
     background-size: cover;
     background-position: center top;
-    background-image: linear-gradient(rgba(226, 220, 220, 0.425),rgba(160, 157, 157, 0.47)),url(../image\ 1st.jpg);
+    background-image: linear-gradient(rgba(226, 220, 220, 0.425),rgba(160, 157, 157, 0.47)),url(image\ 1st.jpg);
 }
 #bannertext{
     padding: 20% 5% 5% 8%;
@@ -133,7 +133,7 @@
 }
 #Exloretheworld{
     margin-bottom: 10%;
-    background-image: linear-gradient(rgba(150, 147, 147, 0.39),rgba(107, 99, 99, 0.315)),url(../explorer.jpg);
+    background-image: linear-gradient(rgba(150, 147, 147, 0.39),rgba(107, 99, 99, 0.315)),url(explorer.jpg);
     height: 90vh;
     background-size: cover;
     background-position: center;
